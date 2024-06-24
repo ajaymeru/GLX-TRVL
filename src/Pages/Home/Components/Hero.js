@@ -1,5 +1,5 @@
 import React from 'react'
-import video from "../../../assets/space.mp4"
+import video from "../../../assets/space2.mp4"
 import { Link } from 'react-router-dom'
 
 
