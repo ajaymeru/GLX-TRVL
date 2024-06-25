@@ -1,8 +1,18 @@
 import React from 'react'
+import Navbar from "../../Components/Navbar/Navbar"
+import Header from '../../Components/Header/Header'
+import Footer from "../../Components/Footer/Footer"
+import About from '../Home/Components/About'
+
 
 const Training = () => {
     return (
-        <div>Training</div>
+        <>
+            <Navbar />
+            <Header heading="Training page" />
+            <About heading="Training" />
+            <Footer />
+        </>
     )
 }
 

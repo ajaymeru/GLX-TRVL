@@ -1,9 +1,9 @@
 import React from 'react'
 
-const About = () => {
+const About = ({ heading }) => {
     return (
         <>
-            <h1 className='heading'>About us</h1>
+            <h1 className='heading'>{heading}</h1>
             <section className="about">
                 <img src={require("../../../assets/about-img.jpg")} alt="" />
                 <div className="content">
