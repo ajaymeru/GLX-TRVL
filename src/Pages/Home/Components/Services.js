@@ -22,6 +22,9 @@ const Services = () => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: 'ease-in-out',
         responsive: [
             {
                 breakpoint: 1424,
@@ -49,6 +52,7 @@ const Services = () => {
             }
         ]
     };
+
     return (
         <>
             <h1 className="heading">Services</h1>
